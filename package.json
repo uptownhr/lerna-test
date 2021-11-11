@@ -15,6 +15,6 @@
     "build": "lerna run build",
     "test": "lerna run test",
     "revision": "lerna version --yes --conventional-commits",
-    "release": "lerna publish --yes --conventional-commits"
+    "release": "lerna publish --yes --conventional-commits --create-release github"
   }
 }
