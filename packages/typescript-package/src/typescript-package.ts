@@ -1,6 +1,6 @@
 const printName = (firstName, lastName) => {
     const fullName = firstName + " " + lastName;
-    console.log(fullName, 'test2');
+    console.log(fullName, 'test2ss');
     return fullName;
   }
 module.exports = printName;
