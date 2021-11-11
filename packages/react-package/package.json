@@ -16,7 +16,7 @@
     "react-dom": "^17.0.0",
     "react-scripts": "3.4.4",
     "typescript": "~3.7.2",
-    "typescript-package": "^1.0.2"
+    "@uptownhr/typescript-package": "^1.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -39,5 +39,5 @@
       "last 1 safari version"
     ]
   },
-  "gitHead": "53fb7585e4c01e930f379400e8bae5e96c1ff6ef"
+  "gitHead": "ebf149ce3ee8cc50fd19497e7df369f9e980696b"
 }
