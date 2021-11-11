@@ -1,6 +1,6 @@
 # `typescript-package`
 
-> TODO: description
+> TODO: descriptionx
 
 ## Usage
 
