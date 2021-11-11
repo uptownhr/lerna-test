@@ -21,8 +21,8 @@ jobs:
     #needs: build
     runs-on: ubuntu-latest
     env:
-      NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN_GH}}
     #permissions:
     #  packages: write
     #  contents: read
@@ -44,7 +44,3 @@ jobs:
       #  env:
       #    NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
       - run: yarn release
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN_GH}}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
