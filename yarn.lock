@@ -16441,6 +16441,26 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
+typescript-package@^1.0.2:
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/typescript-package/-/typescript-package-0.4.2.tgz#1188cb658aa8fe246aee373f0a9882e305220741"
+  integrity sha1-EYjLZYqo/iRq7jc/CpiC4wUiB0E=
+  dependencies:
+    typescript "1.6.2"
+    typescript-schema "^0.7.7"
+
+typescript-schema@^0.7.7:
+  version "0.7.8"
+  resolved "https://registry.yarnpkg.com/typescript-schema/-/typescript-schema-0.7.8.tgz#2fd2acc86e80fdfc63f4ea0fa5e387fb96d849de"
+  integrity sha1-L9KsyG6A/fxj9OoPpeOH+5bYSd4=
+  dependencies:
+    typescript "1.6.2"
+
+typescript@1.6.2:
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-1.6.2.tgz#5b27254abeb111027cbf9450d3431bc5843191dd"
+  integrity sha1-WyclSr6xEQJ8v5RQ00MbxYQxkd0=
+
 typescript@4.3.5:
   version "4.3.5"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.3.5.tgz#4d1c37cc16e893973c45a06886b7113234f119f4"
