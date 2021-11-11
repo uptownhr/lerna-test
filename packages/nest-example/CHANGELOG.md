@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.11](https://github.com/uptownhr/lerna-test/compare/@uptownhr/nest-sample@0.0.10...@uptownhr/nest-sample@0.0.11) (2021-11-11)
+
+
+### Bug Fixes
+
+* xxxxx ([e497b4f](https://github.com/uptownhr/lerna-test/commit/e497b4fc6717189738d5293645c3d0e40819a5ac))
+
+
+
+
+
 ## [0.0.10](https://github.com/uptownhr/lerna-test/compare/@uptownhr/nest-sample@0.0.9...@uptownhr/nest-sample@0.0.10) (2021-11-11)
 
 **Note:** Version bump only for package @uptownhr/nest-sample
