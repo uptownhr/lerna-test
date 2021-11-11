@@ -9,14 +9,14 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
+    "@uptownhr/typescript-package": "^1.0.2",
     "babel-core": "7.0.0-bridge.0",
     "babel-loader": "^8.1.0",
     "jest": "24.9.0",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
     "react-scripts": "3.4.4",
-    "typescript": "~3.7.2",
-    "@uptownhr/typescript-package": "^1.0.2"
+    "typescript": "~3.7.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -39,5 +39,5 @@
       "last 1 safari version"
     ]
   },
-  "gitHead": "ebf149ce3ee8cc50fd19497e7df369f9e980696b"
+  "gitHead": "2b86d1829f761becd7276780e4f56233dd5f8ff1"
 }
