@@ -1,6 +1,6 @@
 {
   "name": "@uptownhr/typescript-package",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "This is the typescript package of the Mono-Repo",
   "author": "anais-codefresh <anais.urlichs@codefresh.io>",
   "homepage": "",
@@ -22,5 +22,5 @@
     "typescript": "^4.0.3"
   },
   "gitHead": "6f41ee27196a6a5e1b7188ebf70dc5109558a76f",
-  "repository":"https://github.com/uptownhr/lerna-test"
+  "repository": "https://github.com/uptownhr/lerna-test"
 }
