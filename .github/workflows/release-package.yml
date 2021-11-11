@@ -35,7 +35,7 @@ jobs:
           scope: '@uptownhr'
       - name: Git Identity
         run: |
-          git config --global user.name 'github-actions[bot]'
+          git config --global user.name "@$GITHUB_ACTOR"
           git config --global user.email 'uptownhr@gmail.com'
       - run: yarn
         env:
