@@ -1,5 +1,5 @@
 {
-  "name": "@uptownhr/typescript-package",
+  "name": "@uptownhr/lerna-test",
   "version": "1.0.5",
   "description": "This is the typescript package of the Mono-Repo",
   "author": "anais-codefresh <anais.urlichs@codefresh.io>",
