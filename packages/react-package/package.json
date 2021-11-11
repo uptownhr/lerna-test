@@ -1,5 +1,5 @@
 {
-  "name": "react-package",
+  "name": "@uptownhr/react-package",
   "version": "0.1.2",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -38,5 +38,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "gitHead": "8aec130f9bd9a3916fd7ffe20498f771f37284bb"
 }
