@@ -16,6 +16,6 @@
     "test": "lerna run test --parallel",
     "boot": "yarn global add lerna && lerna bootstrap",
     "revision": "lerna version --yes --conventional-commits",
-    "release": "lerna publish --yes"
+    "release": "lerna publish --yes --conventional-commits"
   }
 }
