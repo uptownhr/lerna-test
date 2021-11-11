@@ -15,6 +15,6 @@
     "start": "lerna exec yarn start",
     "test": "lerna run test --parallel",
     "boot": "yarn global add lerna && lerna bootstrap",
-    "release": "lerna publish"
+    "release": "lerna publish --yes"
   }
 }
