@@ -36,7 +36,7 @@ jobs:
           git config --global user.email 'uptownhr@gmail.com'
           git remote set-url origin https://$GITHUB_ACTOR:$GITHUB_PAT@github.com/uptownhr/lerna-test
         env:
-          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_PAT: ${{ secrets.NPM_TOKEN_GH }}
       - run: yarn
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN_GH}}
