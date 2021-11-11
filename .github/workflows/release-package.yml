@@ -44,4 +44,5 @@ jobs:
           git config --global user.name "@$GITHUB_ACTOR"
           git config --global user.email 'uptownhr@gmail.com'
       - run: yarn
+      - run: yarn build
       - run: yarn release

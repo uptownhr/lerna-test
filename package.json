@@ -12,9 +12,8 @@
     "packages/*"
   ],
   "scripts": {
-    "start": "lerna exec yarn start",
-    "test": "lerna run test --parallel",
-    "boot": "yarn global add lerna && lerna bootstrap",
+    "build": "lerna run build",
+    "test": "lerna run test",
     "revision": "lerna version --yes --conventional-commits",
     "release": "lerna publish --yes --conventional-commits"
   }
