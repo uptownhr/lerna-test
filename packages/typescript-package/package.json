@@ -5,13 +5,13 @@
   "author": "anais-codefresh <anais.urlichs@codefresh.io>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/typescript-package.js",
+  "main": "dist/typescript-package.js",
   "directories": {
-    "lib": "lib",
+    "lib": "dist",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "dist"
   ],
   "scripts": {
     "build": "tsc",
