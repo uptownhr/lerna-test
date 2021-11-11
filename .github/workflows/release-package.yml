@@ -30,6 +30,10 @@ jobs:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
           scope: '@uptownhr'
+      - name: Git Identity
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'uptownhr@gmail.com'
       - run: yarn
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN_GH}}
