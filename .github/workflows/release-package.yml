@@ -35,6 +35,5 @@ jobs:
           git config --global user.name "@$GITHUB_ACTOR"
           git config --global user.email 'uptownhr@gmail.com'
       - run: yarn
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN_GH}}
+      - run: lerna changed
       - run: yarn release
