@@ -40,6 +40,6 @@ jobs:
       #- run: npm whoami
       #  env:
       #    NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
-      - run: yarn release
+      - run: yarn revision
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN_GH}}
