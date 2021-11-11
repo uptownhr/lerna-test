@@ -31,7 +31,11 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: '@uptownhr'
       - run: yarn
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
       - run: npm whoami
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
       - run: lerna publish from-package --yes
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
