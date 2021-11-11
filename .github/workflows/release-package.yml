@@ -34,6 +34,9 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'uptownhr@gmail.com'
+          git remote set-url origin https://$GITHUB_ACTOR:$GITHUB_PAT@github.com/uptownhr/lerna-example
+        env:
+          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
       - run: yarn
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN_GH}}
